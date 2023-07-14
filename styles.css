@@ -1,0 +1,53 @@
+*{
+  margin: 0;padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: bisque;
+    width: 100%;
+    height: 100vh;
+   
+    
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  .input-group {
+    margin-top: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 1rem ;
+    width: 200px;
+    border-radius: 10px;
+  border: none;
+  }
+  
+  select {
+    padding: 1rem;
+    width: 200px;
+    border-radius: 10px;
+  }
+  
+  button {
+    border-radius: 10px;
+    padding: 1.5rem 1rem;
+  }
+  
+  #result {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
